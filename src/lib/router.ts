@@ -23,7 +23,7 @@ const router: Router = createRouter({
 });
 
 router.afterEach((to) => {
-  const baseTitle = "Vue + TypeScript + Vite";
+  const baseTitle = "🜊 L u m i n a r i u m - 7 7 🜊";
 
   if (to.name === "index") {
     document.title = baseTitle;

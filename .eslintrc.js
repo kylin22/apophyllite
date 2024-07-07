@@ -12,6 +12,12 @@ module.exports = {
   },
   plugins: ["vue", "@typescript-eslint"],
   rules: {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "off"
+      }
+    ],
     "no-shadow": "off",
     "prefer-destructuring": "off",
     "import/no-unresolved": "off",

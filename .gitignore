@@ -28,6 +28,7 @@
 npm-debug.log
 testem.log
 /typings
+src/book/book.json
 
 # e2e
 /e2e/src/*.js
